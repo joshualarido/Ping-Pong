@@ -82,7 +82,7 @@ var playState = {
 
 		this.scoreText = game.add.text(16, 16, 'p1Score: 0 | p2Score: 0', {fontSize: '20px', fill: '#000'})
 
-		this.moveBall(200, 0)
+		this.moveBall(200, 160)
 
 		this.resetBall = false
 		this.p1Win = false
