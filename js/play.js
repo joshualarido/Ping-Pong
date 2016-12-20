@@ -55,11 +55,7 @@ var playState = {
 		this.wall.scale.setTo(2, 2)
 		this.wall.body.immovable =true
 
-		this.wall2 = game.add.sprite(380, 160, wallGraph);
-		game.physics.enable(this.wall2, Phaser.Physics.ARCADE);
-		this.wall2.scale.setTo(2, 2)
-		this.wall2.body.immovable =true
-
+		
 		this.wall3 = game.add.sprite(360, 300, wallGraph);
 		game.physics.enable(this.wall3, Phaser.Physics.ARCADE);
 		this.wall3.scale.setTo(2, 2)
